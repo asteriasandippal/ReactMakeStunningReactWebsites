@@ -1,0 +1,10 @@
+{
+    "name" : "Sandip Pal",
+    "age" : 33,
+    "smart" : true,
+    "frinds" : ["Dan", "Sam", "Samanta"],
+    "eyes" : {
+        "left" : "green",
+        "right" : "brown"
+    } 
+}

@@ -39,6 +39,10 @@ module.exports = {
                         sourceMap: true
                     }
                 }]
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             }
         ]
     },

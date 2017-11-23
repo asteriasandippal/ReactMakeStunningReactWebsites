@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Jumbotron from './components/common/Jumbotron';
 import Button from './components/common/Button';
+import ShowUser from './components/ShowUser';
 import './App.scss';
 
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
@@ -33,6 +34,7 @@ class App extends Component {
                 <Button className="btn-info btn-block" href="https://google.co.in">This Button Block</Button>
             </Jumbotron>
         </CSSTransitionGroup>
+        <ShowUser/>
       </div>
     );
   }
