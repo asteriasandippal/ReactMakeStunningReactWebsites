@@ -10,6 +10,8 @@ import './App.scss';
 
 import { CSSTransitionGroup } from 'react-transition-group';
 
+import GoogleMap from './components/GoogleMap';
+
 
 class App extends Component {
   render() {
@@ -35,6 +37,7 @@ class App extends Component {
             </Jumbotron>
         </CSSTransitionGroup>
         <ShowUser/>
+        <GoogleMap/>
       </div>
     );
   }
