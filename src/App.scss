@@ -1,0 +1,22 @@
+$color : #555;
+.App {
+  text-align: center;
+  background-color: $color;
+}
+.appfade-enter {
+  opacity: 0.01;
+}
+
+.appfade-enter.appfade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.appfade-leave {
+  opacity: 1;
+}
+
+.appfade-leave.appfade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
